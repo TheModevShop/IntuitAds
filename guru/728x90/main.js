@@ -1,10 +1,12 @@
 $(document).ready(function() {
   var tl = new TimelineLite({onComplete: onComplete});
   var t2 = new TimelineLite();
-  tl.to("#footer", 0.3, {y: -46})
-    .to("#footer-extension", 1, {y: 300})
-    .to("#logo", 0.1, {css:{borderTopColor:'rgba(0, 0, 0, 0.13)'}})
+  tl.to("#footer", 0.5, {x: -46})
+    .to("#footer-extension", 1, {x: 360}, "-=0.4")
+    .to("#logo", 0.1, {css:{borderLeftColor:'rgba(0, 0, 0, 0.13)'}})
     .to("#tag", 1, {opacity: 1})
+    // .add("wait", "+=0.4")
+    // .to("#overlay", 1.8, {opacity: 0.3}, "wait")
 
     .add("wait", "+=2.4")
     .to("#tag", 0.5, {opacity: 0}, "wait")
@@ -15,7 +17,7 @@ $(document).ready(function() {
 
     .to("#overlay", 1.4, {opacity: 0.4}, "wait")
     
-    .to("#e-invoicing", 0.5, {opacity: 1, y: 40}, "-=0.8")
+    .to("#e-invoicing", 0.5, {opacity: 1, x: 40}, "-=0.8")
     .add("wait", "+=1.2")
     
     .to("#own-it", 0.3, {opacity: 1}, "wait")
@@ -31,7 +33,7 @@ $(document).ready(function() {
     .to("#button-tag .button", 0.2, {scale: 1}, 'wait')
   
 
-    t2.to(".background-image", 0.4, {y: -60});
+    t2.to(".background-image", 1.3, {css:{width:'450px'}});
 
   function onComplete() {
     t2.restart();

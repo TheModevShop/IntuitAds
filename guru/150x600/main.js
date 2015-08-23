@@ -2,7 +2,7 @@ $(document).ready(function() {
   var tl = new TimelineLite({onComplete: onComplete});
   var t2 = new TimelineLite();
   tl.to("#footer", 0.3, {y: -46})
-    .to("#footer-extension", 1, {y: 300})
+    .to("#footer-extension", 1, {y: 330}, "-=0.4")
     .to("#logo", 0.1, {css:{borderTopColor:'rgba(0, 0, 0, 0.13)'}})
     .to("#tag", 1, {opacity: 1})
 
@@ -31,7 +31,7 @@ $(document).ready(function() {
     .to("#button-tag .button", 0.2, {scale: 1}, 'wait')
   
 
-    t2.to(".background-image", 0.4, {y: -60});
+    t2.to(".background-image", 1, {y: -130});
 
   function onComplete() {
     t2.restart();
