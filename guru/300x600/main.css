@@ -61,7 +61,7 @@ p {
   opacity: 0;
   margin: 0 auto;
   position: absolute;
-  bottom: 55px;
+  bottom: 65px;
   left: 0;
   right: 0;
   z-index: 2;
@@ -94,8 +94,9 @@ p {
 .wrapper #own-it {
   text-align: center;
   opacity: 0;
+  z-index: 2;
   top: auto;
-  bottom: 162px;
+  bottom: 172px;
 }
 
 .wrapper #own-it p {
@@ -110,6 +111,7 @@ p {
 .wrapper #button-tag {
   bottom: 95px;
   top: auto;
+  z-index: 2;
   opacity: 0;
 }
 
@@ -143,7 +145,7 @@ p {
 
 .wrapper #footer-extension {
   position: absolute;
-  bottom: 100px;
+  bottom: 80px;
   -webkit-transform: translate3d(0, 120%, 0);
   -moz-transform: translate3d(0, 120%, 0);
   -o-transform: translate3d(0, 120%, 0);
@@ -160,25 +162,38 @@ p {
   -ms-transform: rotate(-12deg);
   transform: rotate(-12deg);
   margin-left: -36px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#346734+0,2ba01c+66 */
+  background: #346734; /* Old browsers */
+  background: -moz-linear-gradient(top,  #346734 0%, #2ba01c 66%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#346734), color-stop(66%,#2ba01c)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #346734 0%,#2ba01c 66%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #346734 0%,#2ba01c 66%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #346734 0%,#2ba01c 66%); /* IE10+ */
+  background: linear-gradient(to bottom,  #346734 0%,#2ba01c 66%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#346734', endColorstr='#2ba01c',GradientType=0 ); /* IE6-9 */
+
 }
 
 .wrapper #footer {
   width: 100%;
   height: 72px;
-  background: #2BA01C;
+  background: #346734;
   position: absolute;
   bottom: -46px;
   left: 0;
   right: 0;
-  z-index: 3;
+  z-index: 0;
   padding: 0 20px;
   box-sizing: border-box;
 }
 
 .wrapper #footer #logo { 
   background-image: url('./images/logo.png');
-  width: 100%;
+  left: 20px;
+  right: 20px;
   height: 100%;
+  z-index: 3;
+  position: absolute;
   background-size: 120px;
   background-repeat: no-repeat;
   background-position: center;

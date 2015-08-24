@@ -2,7 +2,7 @@ $(document).ready(function() {
   var tl = new TimelineLite({onComplete: onComplete});
   var t2 = new TimelineLite();
   tl.to("#footer", 0.3, {y: -46})
-    .to("#footer-extension", 1, {y: 300})
+    .to("#footer-extension", 1, {y: 250}, "-=0.3")
     .to("#logo", 0.1, {css:{borderTopColor:'rgba(0, 0, 0, 0.13)'}})
     .to("#tag", 1, {opacity: 1})
 
@@ -16,7 +16,7 @@ $(document).ready(function() {
     .to("#overlay", 1.4, {opacity: 0.4}, "wait")
     
     .to("#e-invoicing", 0.5, {opacity: 1, y: 40}, "-=0.8")
-    .add("wait", "+=1.2")
+    .add("wait", "+=0.7")
     
     .to("#own-it", 0.3, {opacity: 1}, "wait")
     .add("wait", "+=0.5")
@@ -31,7 +31,7 @@ $(document).ready(function() {
     .to("#button-tag .button", 0.2, {scale: 1}, 'wait')
   
 
-    t2.to(".background-image", 0.4, {y: -60});
+    t2.to(".background-image", 1, {y: -60});
 
   function onComplete() {
     t2.restart();
@@ -41,14 +41,3 @@ $(document).ready(function() {
 //End Ready
 });
 
-
-
-
-
-
-// tl.to("#footer", 0.3, {y: -46})
-//     .to("#tag", 1, {x: 90})
-//     .add("blueGreenSpin", "+=0.2")
-//     .to("#tag", 2, {y: 20, rotation: 360}, "blueGreenSpin")
-//     .add("opacity", "+=0.4")
-//     .to("#tag", 0.3, {opacity: 0}, "opacity");
