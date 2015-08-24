@@ -6,7 +6,7 @@ $(document).ready(function() {
     .to("#logo", 0.1, {css:{borderTopColor:'rgba(0, 0, 0, 0.13)'}})
     .to("#tag", 1, {opacity: 1})
 
-    .add("wait", "+=2.4")
+    .add("wait", "+=1.2")
     .to("#tag", 0.5, {opacity: 0}, "wait")
 
     .to("#switched-to-quickbooks", 0.5, {opacity: 1})
