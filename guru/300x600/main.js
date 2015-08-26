@@ -31,7 +31,7 @@ $(document).ready(function() {
     .to("#button-tag .button", 0.2, {scale: 1}, 'wait')
   
 
-    t2.to(".background-image", 1, {y: -60});
+    t2.to(".background-image", 1.3, {y: -190});
 
   function onComplete() {
     t2.restart();

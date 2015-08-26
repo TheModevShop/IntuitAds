@@ -36,7 +36,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: -109px -150px;
-  width: 110%;
+  width: 450px;
 }
 
 .wrapper #overlay {
@@ -83,6 +83,8 @@ p {
 .wrapper #switched-to-quickbooks p {
   display: table-cell;
   vertical-align: middle;
+  font-size: 19px;
+  text-shadow: 1px 1px 2px #2A2A2A;
 } 
 
 
@@ -120,7 +122,7 @@ p {
 
 .wrapper #own-it p {
   font-size: 19px;
-  text-shadow: 1px 2px 13px #585858;
+  text-shadow: 1px 2px 9px #585858;
 }
 
 .wrapper .yellow {
@@ -166,11 +168,12 @@ p {
 .wrapper #footer-extension {
   position: absolute;
   bottom: -125px;
-  -webkit-transform: translate3d(190%, 0, 0);
-  -moz-transform: translate3d(190%, 0, 0);
-  -o-transform: translate3d(190%, 0, 0);
-  -ms-transform: translate3d(190%, 0, 0);
-  transform: translate3d(190%, 0, 0);
+  -webkit-transform: translate3d(0%, 0, 0);
+  -moz-transform: translate3d(0%, 0, 0);
+  -o-transform: translate3d(0%, 0, 0);
+  -ms-transform: translate3d(0%, 0, 0);
+  transform: translate3d(0%, 0, 0);
+  right: 0;
 }
 .wrapper #footer-extension .slope {
   background: #2BA01C;
@@ -216,5 +219,6 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   border-left: 1px solid transparent;
+  opacity: 0;
 
 }

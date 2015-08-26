@@ -48,7 +48,7 @@ p {
   width: 100%;
   height: 100%;
   background: #000;
-  opacity: 0;
+  opacity: 0.2;
 }
 
 .wrapper #tag {
@@ -101,7 +101,7 @@ p {
 }
 
 .wrapper #tag-5 {
-  bottom: 65px;
+  bottom: 71px;
   top: auto;
   opacity: 0;
 }

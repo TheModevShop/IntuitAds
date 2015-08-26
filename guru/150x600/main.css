@@ -1,5 +1,32 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'AvenirNext';
+  font-weight: 500;
+  font-style: normal;
+}
+
+.gotham {
+  font-family: 'Gotham';
+  font-weight: 500;
+  font-style: normal;
+}
+.normal {
+  font-family: 'AvenirNext';
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bold {
+  font-family: 'AvenirNext';
+  font-weight: bold;
+  font-style: normal;
+}
+
+.custom-own-it {
+  font-family: 'Gotham';
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-shadow: 1px 2px 3px #424242;
 }
 
 .wrapper {
@@ -15,7 +42,7 @@ p {
   color: #fff;
   font-weight: 500;
   font-size: 18px;
-  text-shadow: 1px 2px 3px #000;
+  text-shadow: 1px 2px 3px #424242;
   margin: 0;
 }
 
@@ -37,6 +64,11 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   right: 0;
+  -webkit-transform: translateY(-30px);
+  -moz-transform: translateY(-30px);
+  -o-transform: translateY(-30px);
+  -ms-transform: translateY(-30px);
+  transform: translateY(-30px);
 }
 
 .wrapper #overlay {
@@ -82,7 +114,7 @@ p {
   margin: 0 auto;
   text-align: center;
   z-index: 2;
-  top: 40px;
+  top: 99px;
   margin-top: 0px;
   bottom: auto;
 }
@@ -96,6 +128,8 @@ p {
   text-align: center;
   opacity: 0;
   top: auto;
+  z-index: 2;
+  display: block;
   bottom: 172px;
 }
 
@@ -109,8 +143,10 @@ p {
 }
 
 .wrapper #button-tag {
-  bottom: 95px;
+  bottom: 104px;
   top: auto;
+  z-index: 2;
+  display: block;
   opacity: 0;
 }
 
@@ -174,8 +210,8 @@ p {
 
 .wrapper #footer {
   width: 100%;
-  height: 72px;
-  background: #2BA01C;
+  height: 92px;
+  background: #346734;
   position: absolute;
   bottom: -46px;
   left: 0;
@@ -189,6 +225,7 @@ p {
   background-image: url('./images/logo.png');
   left: 20px;
   right: 20px;
+  max-height: 110px;
   height: 100%;
   z-index: 3;
   position: absolute;

@@ -1,5 +1,32 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'AvenirNext';
+  font-weight: 500;
+  font-style: normal;
+}
+
+.gotham {
+  font-family: 'Gotham';
+  font-weight: 500;
+  font-style: normal;
+}
+.normal {
+  font-family: 'AvenirNext';
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bold-av {
+  font-family: 'AvenirNext';
+  font-weight: bold;
+  font-style: normal;
+}
+
+.custom-own-it {
+  font-family: 'Gotham';
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-shadow: 1px 2px 3px #424242;
 }
 
 .wrapper {
@@ -15,7 +42,7 @@ p {
   color: #fff;
   font-weight: 500;
   font-size: 25px;
-  text-shadow: 1px 2px 3px #000;
+  text-shadow: 1px 2px 3px #424242;
   margin: 0;
 }
 
@@ -73,7 +100,12 @@ p {
   text-align: center;
   z-index: 2;
   top: auto;
-  bottom: 155px;
+  bottom: 140px;
+}
+.wrapper #switched-to-quickbooks p {
+  font-size: 29px;
+  padding: 0 20px;
+  text-shadow: 1px 2px 4px #2A2A2A;
 }
 
 
@@ -82,13 +114,13 @@ p {
   margin: 0 auto;
   text-align: center;
   z-index: 2;
-  top: 20px;
+  top: 40px;
   margin-top: 0px;
   bottom: auto;
 }
 .wrapper #e-invoicing p {
   font-size: 26px;
-  text-shadow: 1px 2px 2px #000;
+  text-shadow: 1px 2px 2px #424242;
 }
 
 .wrapper #own-it {
@@ -96,7 +128,7 @@ p {
   opacity: 0;
   z-index: 2;
   top: auto;
-  bottom: 172px;
+  bottom: 182px;
 }
 
 .wrapper #own-it p {
@@ -109,7 +141,7 @@ p {
 }
 
 .wrapper #button-tag {
-  bottom: 95px;
+  bottom: 105px;
   top: auto;
   z-index: 2;
   opacity: 0;
@@ -123,7 +155,7 @@ p {
   border-bottom: 5px solid #9E5002;
   color: #fff;
   margin: 0 auto;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 400;
   text-align: center;
   line-height: 45px;
@@ -133,7 +165,7 @@ p {
 }
 
 #pad {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   text-align: center;
   line-height: 15px;
