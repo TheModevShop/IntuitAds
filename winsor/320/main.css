@@ -1,0 +1,190 @@
+body {
+  font-family: 'AvenirNext';
+  font-weight: 500;
+  font-style: normal;
+}
+
+.gotham {
+  font-family: 'Gotham';
+  font-weight: 500;
+  font-style: normal;
+}
+
+.normal {
+  font-family: 'AvenirNext';
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bold-av {
+  font-family: 'AvenirNext';
+  font-weight: bold;
+  font-style: normal;
+}
+
+.custom-own-it {
+  font-family: 'Gotham';
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.wrapper {
+  width: 300px;
+  height: 250px;
+  background: #000;
+  position: relative;
+  margin: 100px;
+  border: 1px solid;
+  overflow: hidden;
+}
+
+p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 25px;
+  margin: 0;
+}
+
+.wrapper .absolute {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.wrapper .background-image {
+  position: absolute;
+  bottom: 0;
+  left: -20px;
+  top: -155px;
+  background: url('https://dl.dropboxusercontent.com/u/32667343/intuit/images/duke-320.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: -35px;
+  right: -20px;
+  background-size: 141%;
+}
+
+.wrapper #overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.25;
+}
+
+.wrapper #tag {
+  width: 168px;
+  height: 188px;
+  background: url('https://dl.dropboxusercontent.com/u/32667343/intuit/images/duke-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0;
+  margin: 0 auto;
+  margin-top: 5px;
+  background-position: center;
+  z-index: 2;
+  position: relative;
+}
+
+.wrapper #tag-2 {
+  opacity: 0;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 2;
+  bottom: auto;
+  top: 45px;
+  margin-top: 30px;
+}
+
+.wrapper #tag-2 {
+  text-shadow: 1px 2px 2px rgba(0,0,0,0.3);
+}
+
+
+.wrapper #tag-3 {
+  opacity: 0;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 2;
+  top: 5px;
+  margin-top: 0px;
+  bottom: auto;
+}
+.wrapper #tag-3 p {
+  font-size: 18px;
+}
+
+.wrapper #tag-4 {
+  text-align: center;
+  opacity: 0;
+  bottom: auto;
+  top: 86px;
+}
+
+.wrapper #tag-4 p {
+  font-family: 'Gotham-Bold';
+  font-size: 21px;
+}
+
+.wrapper .yellow {
+  color: #FFFC38;
+}
+
+.wrapper #tag-5 {
+  bottom: 71px;
+  top: auto;
+  opacity: 0;
+}
+
+.button {
+  width: 175px;
+  height: 45px;
+  max-height: 45px;
+  background: #ED7600;
+  border-bottom: 5px solid #9E5002;
+  color: #fff;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 15px;
+  box-sizing: border-box;
+  padding-top: 5px;
+}
+
+#pad {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 15px;
+}
+
+
+.wrapper #footer {
+  width: 100%;
+  height: 46px;
+  background: #2BA01C;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.wrapper #footer #logo { 
+  background-image: url('https://dl.dropboxusercontent.com/u/32667343/intuit/images/logo.png');
+  width: 112px;
+  width: 100%;
+  height: 46px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}

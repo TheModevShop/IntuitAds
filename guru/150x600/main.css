@@ -26,12 +26,12 @@ body {
   font-weight: 500;
   font-style: normal;
   letter-spacing: 1px;
-  text-shadow: 1px 2px 3px #424242;
 }
 
 .wrapper {
-  width: 150px;
+  width: 160px;
   height: 600px;
+  background: #000;
   position: relative;
   margin: 100px;
   border: 1px solid;
@@ -42,7 +42,6 @@ p {
   color: #fff;
   font-weight: 500;
   font-size: 18px;
-  text-shadow: 1px 2px 3px #424242;
   margin: 0;
 }
 
@@ -59,16 +58,16 @@ p {
   bottom: 0;
   left: 0;
   top: 0;
-  background: url('./images/guru.png');
+  background: url('https://dl.dropboxusercontent.com/u/32667343/intuit/images/guru-728.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: -446px;
   right: 0;
-  -webkit-transform: translateY(-30px);
-  -moz-transform: translateY(-30px);
-  -o-transform: translateY(-30px);
-  -ms-transform: translateY(-30px);
-  transform: translateY(-30px);
+  -webkit-transform: translateY(-130px);
+  -moz-transform: translateY(-130px);
+  -o-transform: translateY(-130px);
+  -ms-transform: translateY(-130px);
+  transform: translateY(-130px);
 }
 
 .wrapper #overlay {
@@ -84,9 +83,9 @@ p {
 }
 
 .wrapper #tag {
-  width: 100%;
+  width: 125px;
   height: 250px;
-  background: url('./images/guru-logo.png');
+  background: url('https://dl.dropboxusercontent.com/u/32667343/intuit/images/guru-logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -114,14 +113,13 @@ p {
   margin: 0 auto;
   text-align: center;
   z-index: 2;
-  top: 99px;
+  top: 84px;
   margin-top: 0px;
   bottom: auto;
 }
 .wrapper #e-invoicing p {
   font-size: 19px;
   padding: 0 6px;
-  text-shadow: 1px 2px 2px #000;
 }
 
 .wrapper #own-it {
@@ -130,12 +128,12 @@ p {
   top: auto;
   z-index: 2;
   display: block;
-  bottom: 172px;
+  bottom: 182px;
 }
 
 .wrapper #own-it p {
+  font-family: 'Gotham-Bold';
   font-size: 19px;
-  text-shadow: 1px 2px 13px #585858;
 }
 
 .wrapper .yellow {
@@ -143,7 +141,7 @@ p {
 }
 
 .wrapper #button-tag {
-  bottom: 104px;
+  bottom: 94px;
   top: auto;
   z-index: 2;
   display: block;
@@ -152,7 +150,7 @@ p {
 
 .button {
   width: 115px;
-  min-height: 53px;
+  height: 66px;
   background: #ED7600;
   border-bottom: 5px solid #9E5002;
   color: #fff;
@@ -160,7 +158,7 @@ p {
   font-size: 14px;
   font-weight: 400;
   text-align: center;
-  line-height: 45px;
+  line-height: 50px;
   box-sizing: border-box;
   padding-top: 0px;    
   display: table;
@@ -171,7 +169,6 @@ p {
   font-weight: 400;
   text-align: center;
   line-height: 15px;
-  text-shadow: none;
   vertical-align: middle;
   display: table-cell;
 }
@@ -179,17 +176,17 @@ p {
 
 .wrapper #footer-extension {
   position: absolute;
-  bottom: 100px;
-  -webkit-transform: translate3d(0, 120%, 0);
-  -moz-transform: translate3d(0, 120%, 0);
-  -o-transform: translate3d(0, 120%, 0);
-  -ms-transform: translate3d(0, 120%, 0);
-  transform: translate3d(0, 120%, 0);
+  bottom: -190px;
+  -webkit-transform: translate3d(0, 0%, 0);
+  -moz-transform: translate3d(0, 0%, 0);
+  -o-transform: translate3d(0, 0%, 0);
+  -ms-transform: translate3d(0, 0%, 0);
+  transform: translate3d(0, 0%, 0);
 }
 .wrapper #footer-extension .slope {
   background: #2BA01C;
   width: 400px;
-  height: 500px;
+  height: 480px;
   -webkit-transform: rotate(-12deg);
   -moz-transform: rotate(-12deg);
   -o-transform: rotate(-12deg);
@@ -210,10 +207,10 @@ p {
 
 .wrapper #footer {
   width: 100%;
-  height: 92px;
+  height: 70px;
   background: #346734;
   position: absolute;
-  bottom: -46px;
+  bottom: 0px;
   left: 0;
   right: 0;
   z-index: 1;
@@ -222,7 +219,7 @@ p {
 }
 
 .wrapper #footer #logo { 
-  background-image: url('./images/logo.png');
+  background-image: url('https://dl.dropboxusercontent.com/u/32667343/intuit/images/logo.png');
   left: 20px;
   right: 20px;
   max-height: 110px;

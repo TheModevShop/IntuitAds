@@ -1,0 +1,217 @@
+body {
+  font-family: 'AvenirNext';
+  font-weight: 500;
+  font-style: normal;
+}
+
+.gotham {
+  font-family: 'Gotham';
+  font-weight: 500;
+  font-style: normal;
+}
+
+.normal {
+  font-family: 'AvenirNext';
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bold-av {
+  font-family: 'AvenirNext';
+  font-weight: bold;
+  font-style: normal;
+}
+
+.custom-own-it {
+  font-family: 'Gotham';
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.wrapper {
+  width: 300px;
+  height: 250px;
+  background: #000;
+  position: relative;
+  margin: 100px;
+  border: 1px solid;
+  overflow: hidden;
+}
+
+p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 25px;
+  margin: 0;
+}
+
+.wrapper .absolute {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.wrapper .background-image {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  top: 0px;
+  background: url('https://dl.dropboxusercontent.com/u/32667343/intuit/images/paper-320.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  right: 0px;
+}
+
+.wrapper #overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0;
+}
+
+.wrapper #going-paperless {
+  opacity: 1;
+  width: 100%;
+  text-align: center;
+  top: 20px;
+  z-index: 10;
+  font-family: 'Gotham-Bold';
+  font-weight: 300;
+  font-style: normal;
+}
+
+.wrapper #going-paperless p {
+  font-size: 23px;
+}
+
+
+.wrapper #own-it {
+  opacity: 1;
+  width: 100%;
+  text-align: center;
+  top: 60px;
+  z-index: 10;
+  font-family: 'Gotham-Bold';
+}
+
+.wrapper #own-it p {
+  font-size: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper .yellow {
+  color: #FFFC38;
+}
+
+.wrapper #button-tag {
+  bottom: 71px;
+  top: auto;
+  opacity: 0;
+}
+
+.button {
+  width: 175px;
+  height: 45px;
+  max-height: 45px;
+  background: #ED7600;
+  border-bottom: 5px solid #9E5002;
+  color: #fff;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 15px;
+  box-sizing: border-box;
+  padding-top: 5px;
+}
+
+#pad {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 15px;
+}
+
+
+.wrapper #footer {
+  width: 100%;
+  height: 250px;
+  background: rgba(10, 90, 0, 0.73);
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.wrapper #footer p {
+  line-height: 20px;
+  font-family: 'AvenirNext';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.wrapper #footer #paper {
+  position: absolute;
+  height: 90px;
+  left: 0;
+  opacity: 0;
+  right: 0;
+  width: 100%;
+}
+
+.wrapper #footer #paper-work {
+  position: absolute;
+  height: 90px;
+  left: 0;
+  opacity: 0;
+  right: 0;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.wrapper #footer #logo { 
+  background-image: url('https://dl.dropboxusercontent.com/u/32667343/intuit/images/logo.png');
+  width: 112px;
+  opacity: 0;
+  width: 100%;
+  height: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: absolute;
+  top: 12%;  
+  right: 14px;
+
+}

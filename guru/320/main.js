@@ -1,8 +1,8 @@
 $(document).ready(function() {
   var tl = new TimelineLite({onComplete: onComplete});
   var t2 = new TimelineLite();
-  tl.to("#footer", 0.3, {y: -46})
-    .to("#tag", 1, {opacity: 1})
+  tl.add("wait", "+=0.4")
+    .to("#tag", 1, {opacity: 1}, 'wait')
     .add("wait", "+=0.4")
     .to("#overlay", 1.8, {opacity: 0.3}, "wait")
     .add("wait", "+=1.2")

@@ -1,0 +1,253 @@
+body {
+  font-family: 'AvenirNext';
+  font-weight: 500;
+  font-style: normal;
+}
+
+.gotham {
+  font-family: 'Gotham';
+  font-weight: 500;
+  font-style: normal;
+}
+.normal {
+  font-family: 'AvenirNext';
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bold-av {
+  font-family: 'AvenirNext';
+  font-weight: bold;
+  font-style: normal;
+}
+
+.custom-own-it {
+  font-family: 'Gotham';
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.wrapper {
+  width: 728px;
+  height: 90px;
+  position: relative;
+  margin: 100px;
+  background: #000;
+  border: 1px solid;
+  overflow: hidden;
+}
+
+p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+}
+
+.wrapper .absolute {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.wrapper .background-image {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  top: 0;
+  background: url('https://dl.dropboxusercontent.com/u/32667343/intuit/images/duke-728.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 300px;
+  -webkit-transform: scale(1.14);
+     -moz-transform: scale(1.14);
+      -ms-transform: scale(1.14);
+       -o-transform: scale(1.14);
+          transform: scale(1.14);
+}
+
+.wrapper #overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0px;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  background: #000;
+  opacity: 0;
+}
+
+.wrapper #tag {
+  width: 254px;
+  height: 100%;
+  background: url('https://dl.dropboxusercontent.com/u/32667343/intuit/images/duke-logo-728.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  opacity: 0;
+  margin: 0 auto;
+  position: absolute;
+  top: 0px;
+  right: 160px;
+  z-index: 2;
+}
+
+.wrapper #switched-to-quickbooks {
+  opacity: 0;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 2;
+  top: 0px;
+  bottom: 0;
+  right: 0;
+  left: auto;
+  min-width: 270px;
+  height: 100%;
+  display: table;
+  right: 150px;
+}
+.wrapper #switched-to-quickbooks p {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 19px;
+} 
+
+
+.wrapper #e-invoicing {
+  opacity: 0;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 2;
+  top: 0px;
+  min-height: 100%;
+  display: table;
+  bottom: 0px;
+  left: 0;
+}
+.wrapper #e-invoicing p {
+  display: table-cell;
+  vertical-align: middle;
+} 
+
+.wrapper #e-invoicing p {
+  font-size: 19px;
+  padding: 0 6px;
+}
+
+.wrapper #own-it {
+  bottom: 0px;
+  top: 23px;
+  left: auto;
+  z-index: 22;
+  right: 301px;
+  opacity: 0;
+  text-align: center;
+}
+
+.wrapper #own-it p {
+  font-size: 19px;
+  font-family: 'Gotham-Bold';
+}
+
+.wrapper .yellow {
+  color: #FFFC38;
+}
+
+.wrapper #button-tag {
+  bottom: 0px;
+  top: 15px;
+  left: auto;
+  z-index: 22;
+  right: 170px;
+  opacity: 0;
+}
+
+.button {
+  width: 115px;
+  min-height: 63px;
+  background: #ED7600;
+  border-bottom: 5px solid #9E5002;
+  color: #fff;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 45px;
+  box-sizing: border-box;
+  padding-top: 2px;    
+  display: table;
+}
+
+#pad {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 15px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+
+.wrapper #footer-extension {
+  position: absolute;
+  bottom: -125px;
+  -webkit-transform: translate3d(0%, 0, 0);
+  -moz-transform: translate3d(0%, 0, 0);
+  -o-transform: translate3d(0%, 0, 0);
+  -ms-transform: translate3d(0%, 0, 0);
+  transform: translate3d(0%, 0, 0);
+  right: 0;
+}
+.wrapper #footer-extension .slope {
+  background: #2BA01C;
+  width: 400px;
+  height: 500px;
+  -webkit-transform: rotate(-102deg);
+  -moz-transform: rotate(-102deg);
+  -o-transform: rotate(-102deg);
+  -ms-transform: rotate(-102deg);
+  transform: rotate(-102deg);
+  margin-left: -36px;
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#417f44+0,2ba01c+50 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ba01c+50,417f44+100 */
+  background: rgb(43,160,28); /* Old browsers */
+  background: -moz-linear-gradient(45deg,  rgba(43,160,28,1) 50%, rgba(65,127,68,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(50%,rgba(43,160,28,1)), color-stop(100%,rgba(65,127,68,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(45deg,  rgba(43,160,28,1) 50%,rgba(65,127,68,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(45deg,  rgba(43,160,28,1) 50%,rgba(65,127,68,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(45deg,  rgba(43,160,28,1) 50%,rgba(65,127,68,1) 100%); /* IE10+ */
+  background: linear-gradient(45deg,  rgba(43,160,28,1) 50%,rgba(65,127,68,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ba01c', endColorstr='#417f44',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.wrapper #footer {
+  width: 155px;
+  height: 100%;
+  position: absolute;
+  bottom: 0px;
+  top: 0;
+  left: auto;
+  right: 0px;
+  z-index: 1;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+
+.wrapper #footer #logo { 
+  background-image: url('https://dl.dropboxusercontent.com/u/32667343/intuit/images/logo.png');
+  width: 100%;
+  height: 100%;
+  background-size: 116px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-left: 1px solid transparent;
+  opacity: 1;
+
+}
