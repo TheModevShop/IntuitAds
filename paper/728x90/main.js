@@ -1,42 +1,58 @@
-$(document).ready(function() {
+$(window).load(function() {
   var tl = new TimelineLite({onComplete: onComplete});
   var t2 = new TimelineLite();
-  tl.add("wait", "+=1.5")   
-    .to("#logo", 0.6, {opacity: 1}, "wait")
-    .to("#logo", 0.1, {css:{borderLeftColor:'rgba(0, 0, 0, 0.13)'}})
-    .to("#tag", 0.6, {opacity: 1})
-    
+  tl.add("wait", "+=0.2") 
+    .to("#logo", 0.5, {opacity: 1}, 'wait')
+
+
+    .add("wait", "+=0")
+    .to("#overlay", 1.4, {opacity: 0.6}, "wait")
+    .to("#paper", 0.5, {opacity: 1}, 'wait')
+
     .add("wait", "+=1.5")
-    .to("#tag", 0.3, {opacity: 0}, "wait")
+    .to("#paper", 0.3, {opacity: 0}, 'wait')
+    .add("wait", "+=0.2")
 
-    .to("#switched-to-quickbooks", 0.3, {opacity: 1})
-    .add("wait", "+=2")
-    .to("#switched-to-quickbooks", 0.3, {opacity: 0}, "wait")
-
-    .to("#overlay", 1.4, {opacity: 0.4}, "wait")
-    
-    .to("#e-invoicing", 0.5, {opacity: 1, x: 40}, "-=0.8")
+    .to("#paper-work", 0.3, {opacity: 1}, 'wait')
     .add("wait", "+=1.5")
-    
-    .to("#own-it", 0.3, {opacity: 1}, "wait")
-    .add("wait", "+=0.5")
+    .to("#paper-work", 0.3, {opacity: 1}, 'wait')
 
-    .to("#button-tag", 0.5, {opacity: 1}, "wait")
+    .to("#logo", 0.3, {opacity: 0}, 'wait')
+    .to("#paper-work", 0.5, {opacity: 0}, 'wait')
+
+    .add("wait", "+=0.6")
+
+    .add("wait", "+=0.6")
+    .to("#going-paperless", 0.5, {opacity: 1}, 'wait')
+
+
+    .add("wait", "+=1.5")
+    .to("#body-logo", 0.5, {opacity: 1}, 'wait')
+    .to("#own-it", 0.5, {opacity: 1}, 'wait')
+    .to("#ipad", 0.5, {y: -120}, 'wait')
+
+
+    .add("wait", "+=1.7")
+    .to("#own-it", 0.5, {opacity: 0}, 'wait')
+    .to("#going-paperless", 0.5, {opacity: 0}, 'wait')
+    .to("#solid-green", 0.5, {opacity: 1}, 'wait')
+
     .add("wait", "+=0.5")
-    .to("#button-tag .button", 0.3, {scale: 1.13}, 'wait')
+    .to("#switch-quick-books", 0.5, {opacity: 1}, 'wait')
+    .to("#button-tag", 0.3, {opacity: 1}, 'wait')
+
+    .add("wait", "+=0.9")
+    .to("#button-tag .button", 0.3, {scale: 1.2}, 'wait')
     .add("wait", "+=0.001")
     .to("#button-tag .button", 0.3, {scale: 1}, 'wait')
+    
 
-    .add("wait", "+=5")
-    .to("#button-tag .button", 0.2, {scale: 1}, 'wait')
+    t2.to(".background-image", 10, {scale: 1.1})
 
-    t2.to(".background-image", 3, {scale: 1});
 
   function onComplete() {
-    tl.restart();
-    t2.restart();
+    // tl.restart();
+    // t2.restart();
   }
 
-//End Ready
 });
-
