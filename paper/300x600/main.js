@@ -41,7 +41,6 @@ $(window).load(function() {
     .to("#own-it", 0.5, {opacity: 0}, 'wait')
     .to("#going-paperless", 0.5, {opacity: 0}, 'wait')
     .to("#footer", 0.5, {css: {backgroundColor: 'transparent'}}, 'wait')
-    .to(".background-image", 0.5, {opacity: 0}, 'wait')
     .to("#solid-green", 0.5, {opacity: 1}, 'wait')
 
     .add("wait", "+=0.7")

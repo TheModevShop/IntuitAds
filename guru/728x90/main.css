@@ -89,7 +89,7 @@ p {
   margin: 0 auto;
   position: absolute;
   top: 0px;
-  right: 160px;
+  right: 155px;
   z-index: 2;
 }
 
@@ -147,7 +147,7 @@ p {
 
 .wrapper #own-it p {
   font-size: 19px;
-  font-family: 'Gotham-Bold';
+  font-family: 'Gotham-Book';
 }
 
 .wrapper .yellow {
@@ -241,7 +241,7 @@ p {
   height: 100%;
   background-size: 116px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 14px center;
   border-left: 1px solid transparent;
   opacity: 1;
 }

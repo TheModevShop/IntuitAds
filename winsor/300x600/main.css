@@ -65,6 +65,11 @@ p {
   background-position: -100px;
   right: 0;
   min-width: 496px;
+  -webkit-transform-origin: left;
+     -moz-transform-origin: left;
+      -ms-transform-origin: left;
+       -o-transform-origin: left;
+          transform-origin: left;
 }
 
 .wrapper #overlay {
@@ -133,7 +138,7 @@ p {
 
 .wrapper #own-it p {
   font-size: 36px;
-  font-family: 'Gotham-Bold';
+  font-family: 'Gotham-Book';
 }
 
 .wrapper .yellow {
@@ -159,7 +164,7 @@ p {
   text-align: center;
   line-height: 45px;
   box-sizing: border-box;
-  padding-top: 0px;    
+  padding-top: 2px;    
   display: table;
   height: 53px;
 }

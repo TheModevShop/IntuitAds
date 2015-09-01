@@ -87,7 +87,7 @@ p {
   text-align: center;
   top: 40px;
   z-index: 10;
-  font-family: 'Gotham-Bold';
+  font-family: 'Gotham-Book';
   font-weight: 300;
   font-style: normal;
   opacity: 0;
@@ -107,7 +107,7 @@ p {
   top: 108px;
   bottom: auto;
   z-index: 10;
-  font-family: 'Gotham-Bold';
+  font-family: 'Gotham-Book';
   opacity: 0;
 }
 

@@ -43,3 +43,13 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Gotham-Book';
+	src: url('https://dl.dropboxusercontent.com/u/32667343/intuit/fonts/GothamBook.eot');
+	src: url('https://dl.dropboxusercontent.com/u/32667343/intuit/fonts/GothamBook.eot?#iefix') format('embedded-opentype'),
+		url('https://dl.dropboxusercontent.com/u/32667343/intuit/fonts/GothamBook.woff') format('woff'),
+		url('https://dl.dropboxusercontent.com/u/32667343/intuit/fonts/GothamBook.ttf')  format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+

@@ -98,6 +98,7 @@ p {
   z-index: 2;
   bottom: auto;
   top: 45px;
+  text-shadow: 1px 2px 2px rgba(0,0,0,0.4);
   margin-top: 30px;
 }
 
@@ -109,6 +110,7 @@ p {
   z-index: 2;
   top: 5px;
   margin-top: 0px;
+  text-shadow: 1px 2px 2px rgba(0,0,0,0.4);
   bottom: auto;
 }
 .wrapper #tag-3 p {
@@ -119,11 +121,12 @@ p {
   text-align: center;
   opacity: 0;
   bottom: auto;
+  text-shadow: 1px 2px 2px rgba(0,0,0,0.4);
   top: 86px;
 }
 
 .wrapper #tag-4 p {
-  font-family: 'Gotham-Bold';
+  font-family: 'Gotham-Book';
   font-size: 21px;
 }
 
